@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+article {
+    border: 1px solid gray;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+hgroup {
+    margin-top: 0.5rem;
+}
+
+hgroup * {
+    margin: 0;
+}

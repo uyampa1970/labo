@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table_0-3 | labo uyampa1970</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <link rel="stylesheet" href="css/custum.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/naisenkitei/naisenkitei.html">内線規程を役立てよう</a>
+        </nav>
+        <hgroup>
+            <h1>電力電流対照表</h1>
+            <p>電力(kW)で電流(A)が分かる！</p>
+        </hgroup>
+    </header>
+    <main>
+        <article>
+            <section>
+                <h2>引用元</h2>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>内線規程</th>
+                            <td>JEAC 8001-2016</td>
+                        </tr>
+                        <tr>
+                            <th>頁</th>
+                            <td>774</td>
+                        </tr>
+                        <tr>
+                            <th>番号</th>
+                            <td>03</td>
+                        </tr>
+                        <tr>
+                            <th>件名</th>
+                            <td>電力電流対照表</td>
+                        </tr>
+                        <tr>
+                            <th>関連する条</th>
+                            <td>―</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <h2>備考</h2>
+                <dl>
+                    <dt>備考１</dt>
+                    <dd>電力が2.5kW又は250kWの場合は、電流はそれぞれ本表の25kWの1/10又は10倍とする。他もまたこの例による。</dd>
+                    <dt>備考２</dt>
+                    <dd>本表は、すべて平衡負荷、力率1の場合に対するものとする。力率が1以下の場合は、本表電流表の値を力率で除した値となる。</dd>
+                </dl>
+                <details>
+                    <summary>平衡負荷</summary>
+                    <p>
+                        平衡負荷とは、各相のインピーダンスが全て等しい負荷を言います。 よって、電源電圧が対称三相交流ならば負荷電流も対称三相交流となり、電流や電圧の大きさ(実効値)は各相同じになります。
+                    </p>
+                    <p>
+                        引用元｜<a href="https://eleeleinfo.com/blog-3phase-ac2/">Δ結線、V結線それぞれの三相電力とその測定方法を解説！</a>
+                    </p>
+                </details>
+                <details>
+                    <summary>インピーダンス</summary>
+                    <p>
+                        インピーダンスとは、交流回路における電流の流れにくさを示す重要な値です。複素数の形で表現される特殊な性質を持っており、抵抗、インダクタンス、キャパシタンスなどの要素が複合的に影響を与えます。この複素数表現により、電気信号の位相差や周波数依存性を考慮することができ、回路の特性を詳細に分析するのに役立ちます。
+                    </p>
+                    <p>
+                        引用元｜<a
+                            href="https://techweb.rohm.co.jp/product/power-device/si/15939/">インピーダンスとは何？抵抗やリアクタンスとの違いも解説</a>
+                    </p>
+                </details>
+                <details>
+                    <summary>力率</summary>
+                    <p>
+                        力率とは供給された電力のうち何％が有効に働いたかを示すものです。<br>
+                        電気製品の中には、電子基盤の中にコイルやコンデンサといった部品が組みこまれているものが多くありますが、コイルやコンデンサに交流がかかると、出力電力が下がります。<br>
+                        その電力の低下する割合のことを力率といいます。
+                    </p>
+                    <p>
+                        例えば、<br>
+                        ある電気製品に電圧を100Vかけて電流が1A流れたとすると、電力は100V×1A＝100Wのはずですが、実際は80Wしか得られていなかった場合、それは『力率80％』といういい方をします。
+                    </p>
+                    <p>
+                        力率が高いと、それだけ器具の効率が高いということになります。電気代は基本的には力率の上下には関係しません。
+                    </p>
+                    <p>
+                        引用元｜<a href="https://www2.panasonic.biz/jp/basics/electric/electricity/power-factor/">力率 |
+                            電気設備の基礎知識 - Panasonic</a>
+                    </p>
+                    <hr>
+                    <p>参考サイト</p>
+                    <ul>
+                        <li><a href="https://www.keisoku.co.jp/pw/u-po/399/">力率って、そもそもナニ？ - 計測技術研究所</a></li>
+                        <li><a href="https://j-net21.smrj.go.jp/development/energyeff/Q1231.html">（受電）力率とは？ | 省エネQ&A
+                                - J-Net21 - 中小機構</a></li>
+                    </ul>
+                </details>
+            </section>
+            <section>
+                <h2>適用する表</h2>
+                <nav>
+                    <ul>
+                        <li>100V単相2線式</li>
+                        <li>100/173V三相4線式</li>
+                        <li>100/200V単相3線式</li>
+                        <li><a href="#table3">200V三相3線式</a></li>
+                        <li>230/400V三相4線式</li>
+                        <li>3,000V単相2線式</li>
+                        <li>3,000V三相3線式</li>
+                        <li>6,000V三相3線式</li>
+                    </ul>
+                </nav>
+            </section>
+            <section id="table3">
+                <h2>200V三相3線式</h2>
+                <table>
+                    <caption>電力電流対照表<br>200V三相3線式</caption>
+                    <thead>
+                        <tr>
+                            <th>電力(kW)</th>
+                            <th>電流(A)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="data">
+                        <tr>
+                            <td>1</td>
+                            <td>2.89</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>5.77</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>8.66</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>11.50</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>14.40</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>17.30</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>20.20</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>23.10</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>26.00</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>28.90</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>34.60</td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>40.40</td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td>43.30</td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td>46.20</td>
+                        </tr>
+                        <tr>
+                            <td>18</td>
+                            <td>52.00</td>
+                        </tr>
+                        <tr>
+                            <td>20</td>
+                            <td>57.50</td>
+                        </tr>
+                        <tr>
+                            <td>25</td>
+                            <td>72.20</td>
+                        </tr>
+                        <tr>
+                            <td>30</td>
+                            <td>86.60</td>
+                        </tr>
+                        <tr>
+                            <td>35</td>
+                            <td>101.00</td>
+                        </tr>
+                        <tr>
+                            <td>40</td>
+                            <td>115.00</td>
+                        </tr>
+                        <tr>
+                            <td>45</td>
+                            <td>130.00</td>
+                        </tr>
+                        <tr>
+                            <td>50</td>
+                            <td>144.00</td>
+                        </tr>
+                        <tr>
+                            <td>60</td>
+                            <td>173.00</td>
+                        </tr>
+                        <tr>
+                            <td>70</td>
+                            <td>202.00</td>
+                        </tr>
+                        <tr>
+                            <td>80</td>
+                            <td>231.00</td>
+                        </tr>
+                        <tr>
+                            <td>90</td>
+                            <td>260.00</td>
+                        </tr>
+                        <tr>
+                            <td>100</td>
+                            <td>289.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </article>
+
+    </main>
+    <footer>
+        <p>今日も一日、ご安全に！</p>
+    </footer>
+
+</body>
+
+</html>
